@@ -14,8 +14,8 @@ public class CommonEntrypoint implements ModInitializer {
 
 //?} elif neoforge {
 
-/*import net.neoforged.fml.common.Mod;
-import net.lopymine.ed.ParticleDithering;
+/*import net.lopymine.pd.ParticleDithering;
+import net.neoforged.fml.common.Mod;
 
 @Mod(ParticleDithering.MOD_ID)
 public class CommonEntrypoint {

@@ -15,9 +15,9 @@ public class ClientEntrypoint implements ClientModInitializer {
 
 //?} elif neoforge {
 /*import java.util.*;
-import net.lopymine.ed.ParticleDithering;
-import net.lopymine.ed.client.ParticleDitheringClient;
-import net.lopymine.ed.modmenu.ModMenuIntegration;
+import net.lopymine.pd.ParticleDithering;
+import net.lopymine.pd.client.ParticleDitheringClient;
+import net.lopymine.pd.modmenu.ModMenuIntegration;
 import net.neoforged.api.distmarker.Dist;
 import net.neoforged.fml.ModContainer;
 import net.neoforged.fml.common.Mod;
