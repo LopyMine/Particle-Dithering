@@ -1,0 +1,14 @@
+{
+	"required": true,
+	"package": "net.lopymine.pd.mixin",
+	"refmap": "${mod_id}.refmap.json",
+	"compatibilityLevel": "JAVA_${java}",
+	"mixins": [],
+	"client": [
+		"ParticlesRenderStateMixin",
+		"RenderPassMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

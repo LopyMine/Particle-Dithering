@@ -1,0 +1,30 @@
+{
+	"modmenu.descriptionTranslation.${mod_id}": "${mod_description}",
+
+	"${mod_id}.modmenu.category.general.name": "§lGeneral",
+
+	"${mod_id}.modmenu.group.main.name": "§lMain",
+	"${mod_id}.modmenu.group.main.description": "Main settings of ${mod_name} mod.",
+
+	"${mod_id}.modmenu.option.mod_enabled.name": "Mod Enabled",
+	"${mod_id}.modmenu.option.mod_enabled.description": "If enabled, nearest entities will be translucent; if disabled, won't.",
+
+
+	"${mod_id}.modmenu.group.hiding.name": "§lHiding",
+	"${mod_id}.modmenu.group.hiding.description": "Settings that control the power of entities translucent.",
+
+	"${mod_id}.modmenu.option.pixel_size.name": "Pixel Size",
+	"${mod_id}.modmenu.option.pixel_size.description": "The size of the dithering dots in screen pixels.\n\nThe bigger the value, the chunkier the dithering pattern.",
+
+	"${mod_id}.modmenu.option.far.name": "Far Distance",
+	"${mod_id}.modmenu.option.far.description": "The distance at which the particle starts to become translucent.\n\nThe closer particle is to you, the more transparent it will be!",
+
+	"${mod_id}.modmenu.option.near.name": "Near Distance",
+	"${mod_id}.modmenu.option.near.description": "The distance at which the particle becomes completely translucent.",
+
+	"${mod_id}.modmenu.option.min_value.name": "Min Value",
+	"${mod_id}.modmenu.option.min_value.description": "The minimum visibility of the particle, so it never fully disappears.\n\nThe higher the value, the more visible the closest entities stay (at 1.0 they are never hidden).",
+
+	"${mod_id}.modmenu.formatter.enabled_or_disabled.true": "Enabled",
+	"${mod_id}.modmenu.formatter.enabled_or_disabled.false": "Disabled"
+}
