@@ -1,25 +1,23 @@
-[![Discord link to the "LopyMine's Project" discord server](https://cdn.modrinth.com/data/cached_images/21f178aff2b64844fefeaf94a3a3a418440fd43f.png)](https://discord.gg/NZzxdkrV4s) [![Github Link-Banner](https://cdn.modrinth.com/data/cached_images/d87060a9e4522786e45b4b54d10853a1b4a91b10.png)](https://github.com/LopyMine/entity-dithering) [![Support Link-Banner [Boosty]](https://cdn.modrinth.com/data/cached_images/dce91fef079649dee277c52a998fc068e745e99e.png)](https://boosty.to/lopymine/donate)
+[![Discord link to the "LopyMine's Project" discord server](https://cdn.modrinth.com/data/cached_images/21f178aff2b64844fefeaf94a3a3a418440fd43f.png)](https://discord.gg/NZzxdkrV4s) [![Github Link-Banner](https://cdn.modrinth.com/data/cached_images/d87060a9e4522786e45b4b54d10853a1b4a91b10.png)](https://github.com/LopyMine/particle-dithering) [![Support Link-Banner [Boosty]](https://cdn.modrinth.com/data/cached_images/dce91fef079649dee277c52a998fc068e745e99e.png)](https://boosty.to/lopymine/donate)
 
-[![CurseForge Link-Banner](https://cdn.modrinth.com/data/cached_images/c39affcb732c8b1a4fe189e79898c686da3d63e2.png)](https://www.curseforge.com/minecraft/mc-mods/entity-dithering) [![Modrinth Link-Banner](https://cdn.modrinth.com/data/cached_images/9991553f6a20e5105b9b153b8d817bc3630c18a8.png)](https://modrinth.com/mod/entity-dithering)
+[![CurseForge Link-Banner](https://cdn.modrinth.com/data/cached_images/c39affcb732c8b1a4fe189e79898c686da3d63e2.png)](https://www.curseforge.com/minecraft/mc-mods/particle-dithering) [![Modrinth Link-Banner](https://cdn.modrinth.com/data/cached_images/9991553f6a20e5105b9b153b8d817bc3630c18a8.png)](https://modrinth.com/mod/particle-dithering)
 
 # 💬 Description
-Entity Dithering — Mod that adds bedrock-like dithered transparency effect to entities when you are close to them:
+Particle Dithering — Mod that adds dithered transparency effect to particles when you are close to them:
 
-![Showcase](https://cdn.modrinth.com/data/cached_images/fdd1994f8d6e6ee9b16c1f3f1dbd5247da152863_0.webp)
+![Showcase](https://cdn.modrinth.com/data/cached_images/57efde4b66816c0379700f82d6bc7cb235c066dc_0.webp)
 
 # 🌟 Shaders Compatible
 Don't worry, this mod works with all shaders, including those from your resource packs or Iris shaders! You don't need to do anything — just enable them, and it will work.
 
-[**Miniature Shaders**](https://modrinth.com/shader/miniature-shader) Enabled:
+[**Complementary Shaders**](https://modrinth.com/shader/miniature-shader) Enabled:
 
-![Showcase](https://cdn.modrinth.com/data/cached_images/223246978c914b26888913183bc486e076b9ca80_0.webp)
+![Showcase](https://cdn.modrinth.com/data/cached_images/0e02977bf229813bb544586cf05727eb950bb434_0.webp)
 
 # ⚙️ Configuration Screen
-Here you can easily configure effect behaviour and choose which entities will have it!
+Here you can easily configure effect behaviour!
 
-![Showcase](https://cdn.modrinth.com/data/cached_images/e963ca34a05495b67885f21c2097839b0766d345_0.webp)
-
-![Showcase](https://cdn.modrinth.com/data/cached_images/756424f6555347bc01036010c9b82a6b25eed863.png)
+![Showcase](https://cdn.modrinth.com/data/cached_images/a90c7e04ba189eda16c1bc312d7a1135779e22b0_0.webp)
 
 ---
 
