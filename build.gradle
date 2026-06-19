@@ -1,3 +1,5 @@
+import net.lopymine.utils.MossyUtils
+
 plugins {
 	id "net.lopymine.mossy-plugin-core" version "$mossy_plugin_version"
 	id "maven-publish"
@@ -21,22 +23,19 @@ mossyDependencies {
 	}
 }
 
-//mossyResources {
-//	customProperty("mossylib_version", MossyUtils.substringBefore(prop("dep.mossylib"), "+"))
-//	customProperty("dithering_lib_version", MossyUtils.substringBefore(prop("dep.mossylib"), "+"))
+mossyResources {
+	customProperty("mossylib_version", MossyUtils.substringBefore(prop("dep.mossylib"), "+"))
+	//customProperty("dithering_lib_version", "1.2.0-beta.12")
+	customProperty("dithering_lib_version", MossyUtils.substringBefore(prop("dep.dithering-lib"), "+"))
+}
+
+//repositories {
+//	mavenLocal()
 //}
-
-repositories {
-	mavenLocal()
-	maven {
-		name "Mossy Projects"
-		url "https://maven.lopymine.net/releases"
-	}
-}
-
-dependencies {
-	mossyImplementation("net.lopymine:dithering_lib:1.1.0-" + stonecutter.current.project)
-}
+//
+//dependencies {
+//	mossyImplementation("net.lopymine:dithering_lib:1.2.0-beta.12-" + stonecutter.current.project)
+//}
 
 stonecutter {
 	replacements.string(current.parsed >= "26.1") {

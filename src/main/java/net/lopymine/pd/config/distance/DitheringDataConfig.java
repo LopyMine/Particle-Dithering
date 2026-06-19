@@ -14,8 +14,8 @@ import static net.lopymine.mossylib.utils.CodecUtils.option;
 public class DitheringDataConfig {
 
 	public static final Codec<DitheringDataConfig> CODEC = create((instance) -> instance.group(
-			option("far", 3.0D, DOUBLE, DitheringDataConfig::getFar),
-			option("near", -0.5D, DOUBLE, DitheringDataConfig::getNear),
+			option("far", 5.5D, DOUBLE, DitheringDataConfig::getFar),
+			option("near", 0.5D, DOUBLE, DitheringDataConfig::getNear),
 			option("min_value", 0.0, DOUBLE, DitheringDataConfig::getMinValue),
 			option("pixel_size", 1.0D, DOUBLE, DitheringDataConfig::getPixelSize)
 	).apply(instance, DitheringDataConfig::new));

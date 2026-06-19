@@ -32,13 +32,13 @@ side = "BOTH"
 [[dependencies.${mod_id}]]
 modId = "mossylib"
 type = "required"
-versionRange = "[1.4.0,)"
+versionRange = "[${mossylib_version},)"
 ordering = "NONE"
 side = "BOTH"
 
 [[dependencies.${mod_id}]]
 modId = "dithering_lib"
 type = "required"
-versionRange = "[1.0.0,)"
+versionRange = "[${dithering_lib_version},)"
 ordering = "NONE"
 side = "BOTH"

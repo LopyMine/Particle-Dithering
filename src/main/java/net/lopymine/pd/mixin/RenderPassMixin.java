@@ -9,6 +9,7 @@ import net.lopymine.dl.dithering.vanilla.*;
 import net.lopymine.dl.thing.RenderingMarker;
 import net.lopymine.dl.utils.IrisDitheringMarker;
 import net.lopymine.pd.config.ParticleDitheringConfig;
+import net.lopymine.pd.thing.ParticleRenderingMarker;
 import org.spongepowered.asm.mixin.*;
 import org.spongepowered.asm.mixin.injection.*;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
@@ -23,15 +24,16 @@ public class RenderPassMixin {
 
 	@Inject(at = @At("HEAD"), method = "setPipeline", cancellable = true)
 	private void swapPipeline(RenderPipeline pipeline, CallbackInfo ci) {
-		boolean bl = IrisAPI.isShaderPackInUse();
-		((IrisDitheringMarker) pipeline).ditheringLib$setDithering(bl);
-		if (!ParticleDitheringConfig.getInstance().isModEnabled()) {
+		if (!ParticleRenderingMarker.RENDERING_PARTICLE.get().isEnabled()) {
 			return;
 		}
-		if (!RenderingMarker.DITHERING_ENABLED.get().isEnabled()) {
+		boolean shaders = IrisAPI.isShaderPackInUse();
+		boolean active = ParticleDitheringConfig.getInstance().isModEnabled();
+		((IrisDitheringMarker) pipeline).ditheringLib$setDithering(active && shaders);
+		if (!active) {
 			return;
 		}
-		if (bl) {
+		if (shaders) {
 			return;
 		}
 		RenderPipeline ditheringPipeline = VanillaDitheringShaderManager.getDitheringPipeline(pipeline);
@@ -46,7 +48,7 @@ public class RenderPassMixin {
 		if (!ParticleDitheringConfig.getInstance().isModEnabled()) {
 			return;
 		}
-		if (!RenderingMarker.DITHERING_ENABLED.get().isEnabled()) {
+		if (!ParticleRenderingMarker.RENDERING_PARTICLE.get().isEnabled()) {
 			return;
 		}
 		if (this.particleDithering$addedDitheringUniform) {

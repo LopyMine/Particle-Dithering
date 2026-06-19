@@ -3,6 +3,7 @@ package net.lopymine.pd.dithering;
 import java.util.*;
 import net.lopymine.dl.api.DitheringLibAPI;
 import net.lopymine.dl.dithering.DitheringData;
+import net.lopymine.dl.dithering.vanilla.VanillaDitheringDataBuffer;
 import net.lopymine.pd.config.ParticleDitheringConfig;
 import net.lopymine.pd.config.distance.DitheringDataConfig;
 import net.minecraft.resources.Identifier;
@@ -30,6 +31,6 @@ public class DitheringManager {
 		data.setFixedValue(1.0F);
 		data.setPixelSize((float) config.getPixelSize());
 		data.push();
+		VanillaDitheringDataBuffer.update(data);
 	}
-
 }

@@ -26,8 +26,8 @@
         ]
     },
     "depends": {
-	    "dithering_lib": "*",
-	    "mossylib": ">=${mossylib}",
+	    "dithering_lib": ">=${dithering_lib_version}",
+	    "mossylib": ">=${mossylib_version}",
         "fabricloader": ">=${fabric_loader}",
         "minecraft": ">=${minecraft}",
         "java": ">=${java}",
